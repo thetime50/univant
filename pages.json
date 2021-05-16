@@ -168,6 +168,13 @@
 
 				}
 			}
+		},
+		{
+			"path": "pages/vantdemo/vantdemo",
+			"style": {
+				"navigationBarTitleText": "vant",
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	"tabBar": {
@@ -197,6 +204,11 @@
 				"iconPath": "/static/tabbar/st-code.png",
 				"selectedIconPath": "static/tabbar/st-code1.png",
 				"text": "schema2code"
+			}, {
+				"pagePath": "pages/vantdemo/vantdemo",
+				"iconPath": "/static/tabbar/st-code.png",
+				"selectedIconPath": "static/tabbar/st-code1.png",
+				"text": "vantdemo"
 			}
 		]
 	},
@@ -204,6 +216,10 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"usingComponents":{
+			"van-button":"/wxcomponents/vant/button/index",
+			"van-picker":"/wxcomponents/vant/picker/index"
+		}
 	}
 }
