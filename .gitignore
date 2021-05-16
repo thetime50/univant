@@ -1,0 +1,17 @@
+# https://gitee.com/dcloud/hello-uniapp/blob/master/.gitignore
+node_modules/
+dist/**
+.project
+unpackage/
+.DS_Store
+wxcomponents/**/*.vue
+wxcomponents/**/*.css
+.hbuilderx/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
