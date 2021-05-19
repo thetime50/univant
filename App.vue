@@ -21,6 +21,7 @@
 </script>
 
 <style>
+	@import "/wxcomponents/vant/define.wxss";
 	@import "/wxcomponents/vant/common/index.wxss";
 	/*每个页面公共css */
 	/* #ifndef APP-NVUE */
@@ -35,4 +36,10 @@
 		font-family: iconfont;
 	}
 	/* #endif */
+	
+	.test123{
+		display: flex;
+		flex: 0 0 auto;
+		transform: translate(10,10);
+	}
 </style>

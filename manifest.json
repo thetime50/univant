@@ -105,6 +105,7 @@
         },
         "sdkConfigs" : {
             "maps" : {}
-        }
+        },
+        "domain" : "thetime50.com"
     }
 }
